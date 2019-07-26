@@ -19,7 +19,7 @@ import com.ljs.account.service.impl.AccountCaptialInflowServiceImpl;
  * @author lijunshi
  *
  */
-public class ThreadPoolExecutorTest extends CoreAccountApplicationTests {
+public class ThreadPoolExecutorTest extends PaymentAccountApplicationTests {
 
 	
 	@Resource

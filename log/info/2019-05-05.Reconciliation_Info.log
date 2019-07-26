@@ -1,0 +1,349 @@
+2019-05-05 10:57:39,935 INFO  [main] c.e.r.x.CheckChannelAcquireAndCompareTest 48 - Starting CheckChannelAcquireAndCompareTest on LFT-lijunshi with PID 15740 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 10:57:39,955 INFO  [main] c.e.r.x.CheckChannelAcquireAndCompareTest 597 - The following profiles are active: local
+2019-05-05 10:58:07,695 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 10:58:09,262 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 10:58:10,363 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 10:58:11,247 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 10:58:41,001 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 10:58:41,002 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 10:58:44,576 INFO  [main] c.e.r.x.CheckChannelAcquireAndCompareTest 57 - Started CheckChannelAcquireAndCompareTest in 65.632 seconds (JVM running for 69.348)
+2019-05-05 10:58:58,510 INFO  [main] c.e.r.biz.spbill.SpbillCompareBiz 37 - "当前交易日期=2019-04-21，对账渠道=UNIONPAY_unionpay开始执行对账
+2019-05-05 11:00:00,085 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 11:00:00,102 INFO  [pool-15-thread-1] c.e.reconciliation.task.RcmpTask 43 - 定时获取前一个小时的acs通知数据到数据库表中：2019-05-05T11:00:00.102
+2019-05-05 11:00:00,192 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:getAcsNoticeChangeToFundFile2019050510000020190505105959,val:getAcsNoticeChangeToFundFile2019050510000020190505105959 release flag is :true
+2019-05-05 11:00:00,192 INFO  [pool-15-thread-1] c.e.r.biz.spbill.GetChannelInfoBySql 559 - 2019-05-04,unionWeiXin
+2019-05-05 11:00:45,889 INFO  [main] c.e.r.s.i.CheckResultDetailServiceImpl 244 - 对账批次号=20190505110045UNIONPAY_unionpay81245对应数据更新或插入对账结果表开始
+2019-05-05 11:00:47,828 INFO  [main] c.e.r.s.i.CheckResultDetailServiceImpl 259 - 对账批次号=20190505110045UNIONPAY_unionpay81245对应数据更新或插入对账结果表结束
+2019-05-05 11:03:36,143 INFO  [main] c.e.r.biz.spbill.SpbillCompareBiz 55 - 当前交易日期=2019-04-21，对账渠道=UNIONPAY_unionpay对账处理成功
+2019-05-05 11:04:12,034 INFO  [Thread-32] c.e.r.biz.spbill.SpbillCompareBiz 37 - "当前交易日期=2019-05-04，对账渠道=unionWeiXin开始执行对账
+2019-05-05 11:26:00,931 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 48 - Starting CheckTransDataAcquireTest on LFT-lijunshi with PID 11604 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 11:26:00,933 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 597 - The following profiles are active: local
+2019-05-05 11:26:13,835 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 11:26:15,184 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 11:26:16,204 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 11:26:17,102 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 11:26:27,433 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 11:26:27,435 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 11:26:29,108 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 57 - Started CheckTransDataAcquireTest in 28.854 seconds (JVM running for 29.879)
+2019-05-05 11:26:29,317 INFO  [main] c.e.r.x.CheckTransDataAcquireJob 41 - 当前日期Sun May 05 11:26:29 CST 2019下XXL-JOB调度任务参数如下：2019-04-21
+2019-05-05 11:33:34,181 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 48 - Starting CheckTransDataAcquireTest on LFT-lijunshi with PID 6936 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 11:33:34,184 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 597 - The following profiles are active: local
+2019-05-05 11:34:00,702 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 11:34:02,123 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 11:34:03,580 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 11:34:04,532 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 11:34:25,534 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 11:34:25,535 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 11:34:27,946 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 57 - Started CheckTransDataAcquireTest in 54.605 seconds (JVM running for 57.452)
+2019-05-05 11:34:28,259 INFO  [main] c.e.r.x.CheckTransDataAcquireJob 41 - 当前日期Sun May 05 11:34:28 CST 2019下XXL-JOB调度任务参数如下：2019-04-21
+2019-05-05 11:35:00,526 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 11:36:10,457 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 48 - Starting CheckTransDataAcquireTest on LFT-lijunshi with PID 11872 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 11:36:10,461 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 597 - The following profiles are active: local
+2019-05-05 11:36:29,729 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 11:36:31,192 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 11:36:32,468 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 11:36:33,439 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 11:36:53,705 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 11:36:53,706 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 11:36:56,233 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 57 - Started CheckTransDataAcquireTest in 46.823 seconds (JVM running for 49.244)
+2019-05-05 11:36:56,720 INFO  [main] c.e.r.x.CheckTransDataAcquireJob 41 - 当前日期Sun May 05 11:36:56 CST 2019下XXL-JOB调度任务参数如下：2019-04-21
+2019-05-05 11:41:54,896 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 48 - Starting CheckTransDataAcquireTest on LFT-lijunshi with PID 15568 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 11:41:54,898 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 597 - The following profiles are active: local
+2019-05-05 11:42:12,640 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 11:42:14,278 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 11:42:15,476 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 11:42:16,460 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 11:42:27,610 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 11:42:27,611 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 11:42:30,133 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 57 - Started CheckTransDataAcquireTest in 36.361 seconds (JVM running for 38.475)
+2019-05-05 11:42:30,526 INFO  [main] c.e.r.x.CheckTransDataAcquireJob 41 - 当前日期Sun May 05 11:42:30 CST 2019下XXL-JOB调度任务参数如下：2019-04-21
+2019-05-05 11:43:18,475 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型b2bRecharge对账交易数据
+2019-05-05 11:43:18,475 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.B2BCheckTransDataAcquireDomain 30 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 11:43:18,719 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 11:43:18,720 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 11:43:26,389 INFO  [pool-6-thread-2] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型walletPay对账交易数据
+2019-05-05 11:43:26,390 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 11:43:38,701 INFO  [pool-6-thread-3] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型fastPay对账交易数据
+2019-05-05 11:43:39,826 INFO  [pool-6-thread-4] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型weixinPay对账交易数据
+2019-05-05 11:43:39,882 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 11:43:39,882 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 11:43:42,631 INFO  [pool-6-thread-5] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型memberRecharge对账交易数据
+2019-05-05 11:43:42,631 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 11:43:42,772 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 11:43:42,773 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 11:43:44,500 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型withDraw对账交易数据
+2019-05-05 11:43:45,703 INFO  [pool-6-thread-4] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型withdrawUnion对账交易数据
+2019-05-05 11:43:45,704 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 30 - 获取交易日期Sun Apr 21 00:00:00 CST 2019至Mon Apr 22 00:00:00 CST 2019银联资金结算交易数据
+2019-05-05 11:43:46,697 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 32 - 获取交易日期Sun Apr 21 00:00:00 CST 2019至Mon Apr 22 00:00:00 CST 2019银联资金结算交易数据完成
+2019-05-05 11:43:46,935 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:3事物开始
+2019-05-05 11:43:47,067 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:3事物完成
+2019-05-05 11:50:28,213 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 48 - Starting CheckTransDataAcquireTest on LFT-lijunshi with PID 17244 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 11:50:28,215 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 597 - The following profiles are active: local
+2019-05-05 11:50:53,648 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 11:50:55,063 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 11:50:56,348 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 11:50:57,231 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 11:50:59,881 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 11:50:59,882 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 11:51:02,349 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 57 - Started CheckTransDataAcquireTest in 34.94 seconds (JVM running for 37.057)
+2019-05-05 11:51:02,612 INFO  [main] c.e.r.x.CheckTransDataAcquireJob 41 - 当前日期Sun May 05 11:51:02 CST 2019下XXL-JOB调度任务参数如下：2019-04-21
+2019-05-05 11:51:21,683 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型b2bRecharge对账交易数据
+2019-05-05 11:51:21,684 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.B2BCheckTransDataAcquireDomain 30 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 11:51:21,936 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 11:51:21,937 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 11:53:10,709 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 48 - Starting CheckTransDataAcquireTest on LFT-lijunshi with PID 11524 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 11:53:10,713 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 597 - The following profiles are active: local
+2019-05-05 11:53:31,819 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 11:53:33,318 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 11:53:34,841 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 11:53:35,851 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 11:53:37,879 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 11:53:37,881 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 11:53:40,304 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 57 - Started CheckTransDataAcquireTest in 30.546 seconds (JVM running for 33.579)
+2019-05-05 11:53:40,519 INFO  [main] c.e.r.x.CheckTransDataAcquireJob 41 - 当前日期Sun May 05 11:53:40 CST 2019下XXL-JOB调度任务参数如下：2019-04-21
+2019-05-05 11:53:47,796 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:b2bRecharge对应的对账交易数据
+2019-05-05 11:53:55,335 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型b2bRecharge对账交易数据
+2019-05-05 11:53:55,335 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.B2BCheckTransDataAcquireDomain 30 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 11:53:55,674 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 11:53:55,675 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 11:53:59,550 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:walletPay对应的对账交易数据
+2019-05-05 11:54:05,867 INFO  [pool-6-thread-2] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型walletPay对账交易数据
+2019-05-05 11:54:05,868 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 11:54:11,595 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:fastPay对应的对账交易数据
+2019-05-05 11:57:27,882 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 48 - Starting CheckTransDataAcquireTest on LFT-lijunshi with PID 16164 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 11:57:27,886 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 597 - The following profiles are active: local
+2019-05-05 11:57:54,200 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 11:57:55,638 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 11:57:56,837 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 11:57:57,726 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 11:58:10,366 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 11:58:10,368 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 11:58:12,462 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 57 - Started CheckTransDataAcquireTest in 45.359 seconds (JVM running for 47.703)
+2019-05-05 11:58:12,834 INFO  [main] c.e.r.x.CheckTransDataAcquireJob 41 - 当前日期Sun May 05 11:58:12 CST 2019下XXL-JOB调度任务参数如下：2019-04-21
+2019-05-05 11:58:22,165 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:b2bRecharge对应的对账交易数据
+2019-05-05 11:58:27,295 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型b2bRecharge对账交易数据
+2019-05-05 11:58:27,296 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.B2BCheckTransDataAcquireDomain 30 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 11:58:27,546 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 11:58:27,551 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 11:58:35,223 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:walletPay对应的对账交易数据
+2019-05-05 11:58:48,067 INFO  [pool-6-thread-2] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型walletPay对账交易数据
+2019-05-05 11:58:48,069 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 11:59:57,306 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:fastPay对应的对账交易数据
+2019-05-05 12:00:00,241 INFO  [pool-15-thread-1] c.e.reconciliation.task.RcmpTask 43 - 定时获取前一个小时的acs通知数据到数据库表中：2019-05-05T12:00:00.241
+2019-05-05 12:00:00,325 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:getAcsNoticeChangeToFundFile2019050511000020190505115959,val:getAcsNoticeChangeToFundFile2019050511000020190505115959 release flag is :true
+2019-05-05 12:00:00,365 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 12:00:00,366 INFO  [pool-15-thread-1] c.e.reconciliation.task.RcmpTask 130 - 定时进行资金对账：2019-05-05T12:00:00.366
+2019-05-05 12:00:00,549 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:fundCompare20190505,val:fundCompare20190505 release flag is :true
+2019-05-05 12:00:15,678 INFO  [pool-6-thread-3] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型fastPay对账交易数据
+2019-05-05 12:03:21,479 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:3事物开始
+2019-05-05 12:04:15,621 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:3事物完成
+2019-05-05 12:05:00,046 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 12:05:11,432 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:weixinPay对应的对账交易数据
+2019-05-05 12:05:12,973 INFO  [pool-6-thread-4] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型weixinPay对账交易数据
+2019-05-05 12:05:16,314 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:memberRecharge对应的对账交易数据
+2019-05-05 12:05:17,654 INFO  [pool-6-thread-5] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型memberRecharge对账交易数据
+2019-05-05 12:05:17,655 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 12:05:20,395 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:withDraw对应的对账交易数据
+2019-05-05 12:05:21,407 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型withDraw对账交易数据
+2019-05-05 12:05:23,892 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:withdrawUnion对应的对账交易数据
+2019-05-05 12:05:25,032 INFO  [pool-6-thread-3] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型withdrawUnion对账交易数据
+2019-05-05 12:05:25,033 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 30 - 获取交易日期Sun Apr 21 00:00:00 CST 2019至Mon Apr 22 00:00:00 CST 2019银联资金结算交易数据
+2019-05-05 12:05:25,747 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 32 - 获取交易日期Sun Apr 21 00:00:00 CST 2019至Mon Apr 22 00:00:00 CST 2019银联资金结算交易数据完成
+2019-05-05 12:10:00,057 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 12:15:00,051 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 12:20:00,051 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 12:25:00,048 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 12:30:00,050 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 12:35:00,054 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 12:40:00,052 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 12:45:00,051 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 12:50:00,049 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 12:55:00,040 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 13:00:00,039 INFO  [pool-15-thread-1] c.e.reconciliation.task.RcmpTask 43 - 定时获取前一个小时的acs通知数据到数据库表中：2019-05-05T13:00:00.039
+2019-05-05 13:00:00,110 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:getAcsNoticeChangeToFundFile2019050512000020190505125959,val:getAcsNoticeChangeToFundFile2019050512000020190505125959 release flag is :true
+2019-05-05 13:00:00,142 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 13:05:00,048 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 13:10:00,045 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 13:15:00,049 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 13:20:00,050 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 13:25:00,044 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 13:30:00,046 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 13:35:00,049 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 13:40:00,052 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 13:41:02,351 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 48 - Starting CheckTransDataAcquireTest on LFT-lijunshi with PID 3872 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 13:41:02,352 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 597 - The following profiles are active: local
+2019-05-05 13:41:15,801 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 13:41:17,383 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 13:41:18,334 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 13:41:19,209 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 13:41:38,872 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 13:41:38,873 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 13:41:40,740 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 57 - Started CheckTransDataAcquireTest in 38.975 seconds (JVM running for 39.914)
+2019-05-05 13:41:41,079 INFO  [main] c.e.r.x.CheckTransDataAcquireJob 41 - 当前日期Sun May 05 13:41:41 CST 2019下XXL-JOB调度任务参数如下：2019-04-21
+2019-05-05 13:41:41,097 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:b2bRecharge对应的对账交易数据
+2019-05-05 13:41:41,099 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:walletPay对应的对账交易数据
+2019-05-05 13:41:41,100 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:fastPay对应的对账交易数据
+2019-05-05 13:41:41,101 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:weixinPay对应的对账交易数据
+2019-05-05 13:41:41,102 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:memberRecharge对应的对账交易数据
+2019-05-05 13:41:41,102 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:withDraw对应的对账交易数据
+2019-05-05 13:41:41,102 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:withdrawUnion对应的对账交易数据
+2019-05-05 13:41:41,137 INFO  [pool-6-thread-2] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型walletPay对账交易数据
+2019-05-05 13:41:41,137 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 13:41:41,137 INFO  [pool-6-thread-4] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型weixinPay对账交易数据
+2019-05-05 13:41:41,137 INFO  [pool-6-thread-3] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型fastPay对账交易数据
+2019-05-05 13:41:41,137 INFO  [pool-6-thread-5] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型memberRecharge对账交易数据
+2019-05-05 13:41:41,141 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 13:41:41,142 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型b2bRecharge对账交易数据
+2019-05-05 13:41:41,143 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.B2BCheckTransDataAcquireDomain 30 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 13:41:41,367 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 13:41:41,368 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 13:41:41,369 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 13:41:41,370 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 13:41:41,367 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 13:41:41,372 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 13:41:41,382 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型withDraw对账交易数据
+2019-05-05 13:41:41,386 INFO  [pool-6-thread-4] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型withdrawUnion对账交易数据
+2019-05-05 13:41:41,387 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 30 - 获取交易日期Sun Apr 21 00:00:00 CST 2019至Mon Apr 22 00:00:00 CST 2019银联资金结算交易数据
+2019-05-05 13:41:41,512 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:3事物开始
+2019-05-05 13:41:41,537 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:3事物开始
+2019-05-05 13:41:41,624 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:3事物完成
+2019-05-05 13:41:41,673 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:3事物完成
+2019-05-05 13:41:42,266 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 32 - 获取交易日期Sun Apr 21 00:00:00 CST 2019至Mon Apr 22 00:00:00 CST 2019银联资金结算交易数据完成
+2019-05-05 13:41:42,387 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:3事物开始
+2019-05-05 13:41:42,392 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:3事物开始
+2019-05-05 13:41:42,486 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:3事物完成
+2019-05-05 13:41:42,492 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:3事物完成
+2019-05-05 14:55:04,908 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 48 - Starting CheckTransDataAcquireTest on LFT-lijunshi with PID 10508 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 14:55:04,909 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 597 - The following profiles are active: local
+2019-05-05 14:55:17,692 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 14:55:19,039 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 14:55:20,057 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 14:55:20,971 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 14:55:22,309 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 14:55:22,310 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 14:55:23,824 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 57 - Started CheckTransDataAcquireTest in 19.453 seconds (JVM running for 20.339)
+2019-05-05 14:55:24,130 INFO  [main] c.e.r.x.CheckTransDataAcquireJob 41 - 当前日期Sun May 05 14:55:24 CST 2019下XXL-JOB调度任务参数如下：2019-04-21
+2019-05-05 14:55:24,136 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:b2bRecharge对应的对账交易数据
+2019-05-05 14:55:24,137 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:walletPay对应的对账交易数据
+2019-05-05 14:55:24,138 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:fastPay对应的对账交易数据
+2019-05-05 14:55:24,138 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:weixinPay对应的对账交易数据
+2019-05-05 14:55:24,139 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:memberRecharge对应的对账交易数据
+2019-05-05 14:55:24,139 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:withDraw对应的对账交易数据
+2019-05-05 14:55:24,139 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-21系统类型:withdrawUnion对应的对账交易数据
+2019-05-05 14:55:24,142 INFO  [pool-6-thread-5] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型memberRecharge对账交易数据
+2019-05-05 14:55:24,143 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 14:55:24,142 INFO  [pool-6-thread-2] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型walletPay对账交易数据
+2019-05-05 14:55:24,145 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 14:55:24,143 INFO  [pool-6-thread-4] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型weixinPay对账交易数据
+2019-05-05 14:55:24,143 INFO  [pool-6-thread-3] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型fastPay对账交易数据
+2019-05-05 14:55:24,147 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型b2bRecharge对账交易数据
+2019-05-05 14:55:24,148 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.B2BCheckTransDataAcquireDomain 30 - 获取交易日期=Sun Apr 21 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 14:55:24,361 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 14:55:24,364 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 14:55:24,377 INFO  [pool-6-thread-5] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型withDraw对账交易数据
+2019-05-05 14:55:24,389 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 14:55:24,391 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 14:55:24,404 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Sun Apr 21 00:00:00 CST 2019下业务类型withdrawUnion对账交易数据
+2019-05-05 14:55:24,404 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 30 - 获取交易日期Sun Apr 21 00:00:00 CST 2019至Mon Apr 22 00:00:00 CST 2019银联资金结算交易数据
+2019-05-05 14:55:24,588 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:3事物开始
+2019-05-05 14:55:24,591 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:3事物开始
+2019-05-05 14:55:24,622 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:4事物开始
+2019-05-05 14:55:24,657 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:3事物完成
+2019-05-05 14:55:24,666 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:3事物完成
+2019-05-05 14:55:24,861 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:4事物完成
+2019-05-05 14:55:25,261 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 32 - 获取交易日期Sun Apr 21 00:00:00 CST 2019至Mon Apr 22 00:00:00 CST 2019银联资金结算交易数据完成
+2019-05-05 14:55:25,671 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:3事物开始
+2019-05-05 14:55:25,680 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:3事物开始
+2019-05-05 14:55:25,729 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:3事物完成
+2019-05-05 14:55:25,748 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:3事物完成
+2019-05-05 14:59:22,033 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 48 - Starting CheckTransDataAcquireTest on LFT-lijunshi with PID 5848 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 14:59:22,035 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 597 - The following profiles are active: local
+2019-05-05 14:59:35,012 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 14:59:36,336 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 14:59:37,292 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 14:59:38,213 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 14:59:39,550 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 14:59:39,552 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 14:59:41,172 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 57 - Started CheckTransDataAcquireTest in 19.913 seconds (JVM running for 21.305)
+2019-05-05 14:59:41,319 INFO  [main] c.e.r.x.CheckTransDataAcquireJob 41 - 当前日期Sun May 05 14:59:41 CST 2019下XXL-JOB调度任务参数如下：2019-04-22
+2019-05-05 14:59:41,330 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-22系统类型:b2bRecharge对应的对账交易数据
+2019-05-05 14:59:41,331 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-22系统类型:walletPay对应的对账交易数据
+2019-05-05 14:59:41,341 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Mon Apr 22 00:00:00 CST 2019下业务类型b2bRecharge对账交易数据
+2019-05-05 14:59:41,345 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.B2BCheckTransDataAcquireDomain 30 - 获取交易日期=Mon Apr 22 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 14:59:41,384 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-22系统类型:fastPay对应的对账交易数据
+2019-05-05 14:59:41,385 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-22系统类型:weixinPay对应的对账交易数据
+2019-05-05 14:59:41,386 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-22系统类型:memberRecharge对应的对账交易数据
+2019-05-05 14:59:41,387 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-22系统类型:withDraw对应的对账交易数据
+2019-05-05 14:59:41,389 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-22系统类型:withdrawUnion对应的对账交易数据
+2019-05-05 14:59:41,501 INFO  [pool-6-thread-2] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Mon Apr 22 00:00:00 CST 2019下业务类型walletPay对账交易数据
+2019-05-05 14:59:41,501 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Mon Apr 22 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 14:59:41,504 INFO  [pool-6-thread-5] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Mon Apr 22 00:00:00 CST 2019下业务类型memberRecharge对账交易数据
+2019-05-05 14:59:41,505 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Mon Apr 22 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 14:59:41,506 INFO  [pool-6-thread-4] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Mon Apr 22 00:00:00 CST 2019下业务类型weixinPay对账交易数据
+2019-05-05 14:59:41,512 INFO  [pool-6-thread-3] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Mon Apr 22 00:00:00 CST 2019下业务类型fastPay对账交易数据
+2019-05-05 14:59:41,691 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 14:59:41,692 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 14:59:41,692 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 14:59:41,692 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 14:59:41,693 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 14:59:41,694 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 14:59:41,696 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 14:59:41,696 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 14:59:41,705 INFO  [pool-6-thread-2] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Mon Apr 22 00:00:00 CST 2019下业务类型withdrawUnion对账交易数据
+2019-05-05 14:59:41,705 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 30 - 获取交易日期Mon Apr 22 00:00:00 CST 2019至Tue Apr 23 00:00:00 CST 2019银联资金结算交易数据
+2019-05-05 14:59:41,705 INFO  [pool-6-thread-5] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Mon Apr 22 00:00:00 CST 2019下业务类型withDraw对账交易数据
+2019-05-05 14:59:41,743 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 14:59:41,743 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 14:59:41,783 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 32 - 获取交易日期Mon Apr 22 00:00:00 CST 2019至Tue Apr 23 00:00:00 CST 2019银联资金结算交易数据完成
+2019-05-05 14:59:41,787 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 14:59:41,788 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 14:59:41,840 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:3事物开始
+2019-05-05 14:59:41,976 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:3事物完成
+2019-05-05 14:59:55,315 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 48 - Starting CheckTransDataAcquireTest on LFT-lijunshi with PID 17164 (started by lijunshi in E:\workspace\reconciliation)
+2019-05-05 14:59:55,316 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 597 - The following profiles are active: local
+2019-05-05 15:00:00,442 INFO  [pool-15-thread-1] c.e.reconciliation.task.RcmpTask 43 - 定时获取前一个小时的acs通知数据到数据库表中：2019-05-05T15:00:00.442
+2019-05-05 15:00:00,509 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:getAcsNoticeChangeToFundFile2019050514000020190505145959,val:getAcsNoticeChangeToFundFile2019050514000020190505145959 release flag is :true
+2019-05-05 15:00:00,518 INFO  [Thread-32] c.e.r.biz.spbill.SpbillCompareBiz 37 - "当前交易日期=2019-05-04，对账渠道=unionWeiXin开始执行对账
+2019-05-05 15:00:00,568 INFO  [Thread-32] c.e.r.biz.spbill.SpbillCompareBiz 47 - "当前交易日期=2019-05-04，对账渠道=unionWeiXin对账结果为空，告警操作
+2019-05-05 15:00:00,577 INFO  [pool-15-thread-1] c.e.r.utils.redis.ClusterRedisTool 257 - 释放redis锁，key:ACS_BALABCE_UPDATE,val:ACS_BALABCE_UPDATE release flag is :true
+2019-05-05 15:00:10,895 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 77 - 差错处理消息发送者开始启动
+2019-05-05 15:00:12,401 INFO  [main] c.e.r.m.p.SpbillDefaultProducer 79 - 差错处理消息发送者启动成功,namesrve地址=10.12.9.137:9876;10.12.9.138:9876
+2019-05-05 15:00:13,633 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 110 - 对账平台nameServAddr=10.12.9.137:9876;10.12.9.138:9876消费者实例开始启动
+2019-05-05 15:00:14,603 INFO  [main] c.e.r.m.c.AbstractDefaultPushConsumer 113 - 对账平台消费者实例启动成功
+2019-05-05 15:00:16,281 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 58 - >>>>>>>>>>> xxl-job config init.
+2019-05-05 15:00:16,282 INFO  [main] c.e.f.x.c.XxlJobAutoConfiguration 132 - >>>>>>>>>>> xxl-job-config[AdminAddresses:http://localhost:8088/xxl-job-admin, AppName:reconciliation, Ip:, Port:9090, LogPath:/home/worker/logs/reconciliation, LogRetentionDays:7]
+2019-05-05 15:00:18,257 INFO  [main] c.e.r.xxl.CheckTransDataAcquireTest 57 - Started CheckTransDataAcquireTest in 23.531 seconds (JVM running for 24.505)
+2019-05-05 15:00:18,608 INFO  [main] c.e.r.x.CheckTransDataAcquireJob 41 - 当前日期Sun May 05 15:00:18 CST 2019下XXL-JOB调度任务参数如下：2019-04-30
+2019-05-05 15:00:18,621 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-30系统类型:b2bRecharge对应的对账交易数据
+2019-05-05 15:00:18,622 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-30系统类型:walletPay对应的对账交易数据
+2019-05-05 15:00:18,624 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-30系统类型:fastPay对应的对账交易数据
+2019-05-05 15:00:18,624 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-30系统类型:weixinPay对应的对账交易数据
+2019-05-05 15:00:18,625 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-30系统类型:memberRecharge对应的对账交易数据
+2019-05-05 15:00:18,626 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-30系统类型:withDraw对应的对账交易数据
+2019-05-05 15:00:18,626 INFO  [main] c.e.r.d.c.CheckTransDataAcquireExecutor 35 - 获取交易日期:2019-04-30系统类型:withdrawUnion对应的对账交易数据
+2019-05-05 15:00:18,631 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Tue Apr 30 00:00:00 CST 2019下业务类型b2bRecharge对账交易数据
+2019-05-05 15:00:18,633 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.B2BCheckTransDataAcquireDomain 30 - 获取交易日期=Tue Apr 30 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 15:00:18,659 INFO  [pool-6-thread-2] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Tue Apr 30 00:00:00 CST 2019下业务类型walletPay对账交易数据
+2019-05-05 15:00:18,659 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Tue Apr 30 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 15:00:18,670 INFO  [pool-6-thread-3] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Tue Apr 30 00:00:00 CST 2019下业务类型fastPay对账交易数据
+2019-05-05 15:00:18,674 INFO  [pool-6-thread-4] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Tue Apr 30 00:00:00 CST 2019下业务类型weixinPay对账交易数据
+2019-05-05 15:00:18,677 INFO  [pool-6-thread-5] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Tue Apr 30 00:00:00 CST 2019下业务类型memberRecharge对账交易数据
+2019-05-05 15:00:18,678 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.WalletMemberCheckTransDataAcquireDomain 35 - 获取交易日期=Tue Apr 30 00:00:00 CST 2019的对账交易数据开始
+2019-05-05 15:00:18,857 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 15:00:18,858 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 15:00:18,861 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 15:00:18,861 INFO  [pool-6-thread-2] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 15:00:18,862 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 15:00:18,862 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 15:00:18,865 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 15:00:18,865 INFO  [pool-6-thread-3] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 15:00:18,872 INFO  [pool-6-thread-5] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Tue Apr 30 00:00:00 CST 2019下业务类型withDraw对账交易数据
+2019-05-05 15:00:18,874 INFO  [pool-6-thread-1] c.e.r.d.c.t.AbstractCheckTransDataAcquireDomain 41 - 获取交易日期：Tue Apr 30 00:00:00 CST 2019下业务类型withdrawUnion对账交易数据
+2019-05-05 15:00:18,874 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 30 - 获取交易日期Tue Apr 30 00:00:00 CST 2019至Wed May 01 00:00:00 CST 2019银联资金结算交易数据
+2019-05-05 15:00:18,903 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 15:00:18,904 INFO  [pool-6-thread-5] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 15:00:18,947 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.UnionWithdrawCheckTransDataAcquire 32 - 获取交易日期Tue Apr 30 00:00:00 CST 2019至Wed May 01 00:00:00 CST 2019银联资金结算交易数据完成
+2019-05-05 15:00:18,954 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:0事物开始
+2019-05-05 15:00:18,954 INFO  [pool-6-thread-1] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:0事物完成
+2019-05-05 15:00:19,064 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 40 - 存储对账交易数据条数:4事物开始
+2019-05-05 15:00:19,276 INFO  [pool-6-thread-4] c.e.r.d.c.t.i.CheckTransDataStoreDomainImpl 60 - 存储对账交易数据条数:4事物完成

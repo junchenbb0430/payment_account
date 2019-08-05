@@ -145,7 +145,7 @@ public class KafkaProcuderService<V> implements InitializingBean {
 		pro.put("key.serializer", this.keySerializer);
 		pro.put("value.serializer",this.valueSerializer);
 	    pro.put("acks",this.msgAckType);
-		//kafkaProducer = new KafkaProducer<String,V>(pro);
+		kafkaProducer = new KafkaProducer<String,V>(pro);
 	}
 	
 	 

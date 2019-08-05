@@ -3,7 +3,7 @@
     <!-- <property name="logPath" value="c:/home/worker/logs/quickpay"/>
      <property name="logPath" value="/home/worker/logs/quickpay"/>-->
     <property name="logPath" value="/home/worker/logs/Reconciliation"/>
-    <property name="projectLogName" value="Reconciliation_"/>
+    <property name="projectLogName" value="payment_account_"/>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <!--dev encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder
             by default -->
@@ -104,13 +104,13 @@
         </encoder>
     </appender>
 
-    <logger name="com.ehomepay" additivity="false">
+    <logger name="com.ljs.account" additivity="false">
         <level value="INFO"/>
         <appender-ref ref="appInfoAppender"/>
         <appender-ref ref="appErrorAppender"/>
         <appender-ref ref="STDOUT"/>
     </logger>
-    <logger name="com.ehomepay.reconciliation.dao" additivity="false">
+    <logger name="com.ljs.account.dao" additivity="false">
         <level value="DEBUG"/>
         <appender-ref ref="appSQLAppender"/>
         <appender-ref ref="STDOUT"/>

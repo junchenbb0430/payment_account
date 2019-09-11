@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ljs.account.mq.kafka.Config;
+package com.ljs.account.mq.kafka.config;
 
 /**
  * @author lijunshi
@@ -68,4 +68,6 @@ public class ParamConstants {
 	 * 消息发送buffer时间间隔
 	 */
 	public final static  String  PRODUCER_LINER_MS = "liner.ms";
+	
+	 public static final String SESSION_TIMEOUT_MS_CONFIG = "session.timeout.ms";
 }

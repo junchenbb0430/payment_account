@@ -27,8 +27,8 @@ import com.ljs.account.mq.kafka.consumer.KafaConsumerService;
 public class KafkaConsumerTest extends PaymentAccountApplicationTests {
 	private static final Logger logger = LoggerFactory.getLogger(KafkaConsumerTest.class);
 	 
-	private static final String KafkaServer = "192.168.127.128:9092,192.168.127.129:9092,192.168.127.130:9092";
-//	private static final String KafkaServer = "172.18.33.8:9092,172.18.33.9:9092,172.18.98.38:9092";
+	 
+ private static final String KafkaServer = "172.18.33.8:9092,172.18.33.9:9092,172.18.98.38:9092";
 //	private static final String KafkaServer = "10.100.156.98:9192,10.100.156.98:9292,10.100.156.98:9392";
 	private static final String Topic = "HTTP_REQUEST_ROUTE_TOPIC3";
 	private static final String ConsumerGroup = "consumer0308"; //Ea123,FB

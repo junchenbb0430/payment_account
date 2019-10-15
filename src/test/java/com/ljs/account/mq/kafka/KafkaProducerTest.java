@@ -20,7 +20,7 @@ import com.ljs.account.common.utils.RandomFlowServiceUtil;
  */
 public class KafkaProducerTest  {
 	
-	public static final String brokerList = "192.168.127.128:9092,192.168.127.129:9092,192.168.127.130:9092";
+	public static final String brokerList = "10.112.4.7:9092,10.112.9.12:9092,10.112.9.13:9092";
 	   
 	public static final String topic = "HTTP_REQUEST_ROUTE_TOPIC3";
 	@Test
@@ -32,7 +32,7 @@ public class KafkaProducerTest  {
 	                "org.apache.kafka.common.serialization.StringSerializer");
 	        props.put("value.serializer",
 	                "org.apache.kafka.common.serialization.StringSerializer");
-	        props.put("client.id", "producer.client.id.demo2");
+	        props.put("client.id", "producer.client.id.demo1");
 	        KafkaProducer<String, String> producer = new KafkaProducer<>(props);
 	       
 	        try {

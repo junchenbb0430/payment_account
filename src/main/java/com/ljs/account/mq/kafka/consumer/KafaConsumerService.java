@@ -13,6 +13,7 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.PartitionInfo;
+import org.apache.kafka.common.serialization.StringDeserializer;
 import org.hibernate.validator.constraints.NotBlank;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -81,14 +82,14 @@ public class KafaConsumerService<K,V>   implements  InitializingBean{
 		Properties pro  = new Properties();
 		pro.put(ParamConstants.KAFKA_SERVER_LIST,this.brokerServerList);
 		pro.put(ParamConstants.CONSUMER_GROUP_ID,this.consumerGroupId);
-		pro.put(ParamConstants.CONSUMER_KEY_DESERIALIZER,this.keyDeserializer);
-		pro.put(ParamConstants.CONSUMER_VALUE_DESERIALIZER,this.valueDeserializer);
+		pro.put(ParamConstants.CONSUMER_KEY_DESERIALIZER,StringDeserializer.class);
+		pro.put(ParamConstants.CONSUMER_VALUE_DESERIALIZER,StringDeserializer.class);
 		
 		
-		pro.put(ParamConstants.CONSUMER_MAX_POOL_RECORDS, "100");
-		pro.put(ParamConstants.CONSUMER_MAX_POOL_INTERVAL,"2000");
+		pro.put(ConsumerConfig.MAX_POLL_RECORDS_CONFIG, 256);
+		pro.put(ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG, 1000);
 		pro.put(ParamConstants.CONSUMER_AUTO_COMMIT_TYPE,this.consumerCommitType);
-		pro.put(ParamConstants.SESSION_TIMEOUT_MS_CONFIG,"30000");
+		pro.put(ConsumerConfig.CONNECTIONS_MAX_IDLE_MS_CONFIG, 180 * 1000L);
 		//pro.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG,"earliest");
 		kafkaConsumer = new KafkaConsumer<String,V>(pro);
 		List<String> topicList = new ArrayList<String>();

@@ -4,7 +4,9 @@
 package com.ljs.account.java8;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import org.junit.Test;
@@ -17,7 +19,8 @@ public class OptionalTest {
 
 	@Test
 	public void testOptional() {
-		
+		Map<String,String> map  = new HashMap<String,String>();
+		map.put("111", "222222");
 		 List<String> arrList = new ArrayList<String>();
 		 arrList.add("A");
 		 arrList.add("B");

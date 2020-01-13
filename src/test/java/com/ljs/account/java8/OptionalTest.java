@@ -18,7 +18,20 @@ import org.junit.Test;
 public class OptionalTest {
 
 	@Test
-	public void testOptional() {
+	public void testOptional() throws ClassNotFoundException {
+		ClassLoader classLoader = Class.forName("com.ljs.account.ratelimit.AccountRateLimiterComponent").getClassLoader();
+		classLoader.loadClass("com.ljs.account.ratelimit.AccountRateLimiterComponent");
+		List<String> arry = new ArrayList<String>(3);
+		arry.add("1");
+		arry.add("2");
+		arry.add("3");
+		arry.add("4");
+		arry.add("5");
+		System.out.println("arry size  is "+arry.size());
+		
+		String strs = "http://kohala-paycore.mirror.ehomepay.local/order/?/channel";
+		strs = strs.replace("?","LKL-ALIPAY");
+		System.out.println(strs);
 		Map<String,String> map  = new HashMap<String,String>();
 		map.put("111", "222222");
 		 List<String> arrList = new ArrayList<String>();

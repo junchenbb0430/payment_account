@@ -31,7 +31,7 @@ public class AccountNioServer {
 			 * 3.1 创建多路复用器，并启动线程
 			 */
 			Selector selector = Selector.open();
-			// 4. 将ServerSocketChannel注册到Selector上，监听
+			// 4. 将ServerSocketChannel注册到Selector上，监听客户端连接
 			SelectionKey selectionKey = serverSocket.register(selector,SelectionKey.OP_ACCEPT);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

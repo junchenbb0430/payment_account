@@ -1,5 +1,8 @@
 package com.ljs.account.mq.rocketmq;
 
+import java.io.UnsupportedEncodingException;
+import java.util.Date;
+
 import org.apache.rocketmq.client.exception.MQBrokerException;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
@@ -8,8 +11,11 @@ import org.apache.rocketmq.common.message.Message;
 import org.apache.rocketmq.remoting.exception.RemotingException;
 import org.junit.Test;
 
-public class ProducerTest {
+import com.alibaba.fastjson.JSON;
+ 
 
+public class ProducerTest {
+	 
 
     @Test
     public void testProducerSendMessage(){

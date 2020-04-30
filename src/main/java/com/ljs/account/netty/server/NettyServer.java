@@ -43,6 +43,10 @@ public class NettyServer {
 						 System.out.println(" BOSS server starting  !");
 					}
 				})
+				.option(ChannelOption.SO_BACKLOG, 1024)// Server端请求队列深度
+				.childOption(ChannelOption.SO_KEEPALIVE,true)//开启底层TCP心跳机制
+				.childOption(ChannelOption.TCP_NODELAY,true)//要求高实时性，关闭；减少发送次数和网络交互true
+				// option和childOption可以设置一些底层TCP相关属性
 				//设置后续每条连接的数据读写，每个连接成功的客户端
 				.childHandler(new ChannelInitializer<NioSocketChannel>() {
 					@Override
@@ -62,14 +66,11 @@ public class NettyServer {
 						 pipeline.addLast(new OutboundHandlerTestC());
 						 //ch.pipeline().addLast(new MessageInboudChannelHandler2());
 					}
-				})
-				.option(ChannelOption.SO_BACKLOG, 1024)// Server端请求队列深度
-				.childOption(ChannelOption.SO_KEEPALIVE,true)//开启底层TCP心跳机制
-				.childOption(ChannelOption.TCP_NODELAY,true);//要求高实时性，关闭；减少发送次数和网络交互true
-				// option和childOption可以设置一些底层TCP相关属性
+				});
+				
 		
 		ChannelFuture channelFuture = bootstrap.bind("127.0.0.1",8888);
-		// 设置监听器
+		// 设置监听器,netty中所有操作都是异步
 		channelFuture.addListener(new GenericFutureListener< Future<? super Void>>() {
 			@Override
 			public void operationComplete(Future<? super Void> future) throws Exception {

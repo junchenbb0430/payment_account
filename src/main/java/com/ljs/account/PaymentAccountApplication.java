@@ -3,7 +3,7 @@ package com.ljs.account;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+//import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 //启用mybatis自动代理机制
 @MapperScan(basePackages="com.ljs.account.dao")
 @EnableTransactionManagement
-@EnableDiscoveryClient 
+//@EnableDiscoveryClient 
 public class PaymentAccountApplication {
 
 	public static void main(String[] args) {

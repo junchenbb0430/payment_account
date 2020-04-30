@@ -80,40 +80,6 @@ public String plainPost(Map<String,String> reqMap,String path) throws Exception 
 	    
 	
 	
-	@Test
-	public void testScheduledWithDealy() {
-		System.out.println("上下文---"+ApplicationContextUtil.getApplicationContext());
-		ScheduledThreadPoolServiceCommponent scheduledService = ApplicationContextUtil.getBeanByClass(ScheduledThreadPoolServiceCommponent.class);
-		
-		System.out.println("............");
-		PullTaskWithDelay delayTask = new PullTaskWithDelay();
-		scheduledService.executeTaskWithFixedDelay(delayTask);
-		try {
-			Thread.sleep(Integer.MAX_VALUE);
-			System.out.println("server ended!");
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	@Test
-	public void testScheduledWithFixedRate() {
-		System.out.println("上下文---"+ApplicationContextUtil.getApplicationContext());
-		ScheduledThreadPoolServiceCommponent scheduledService = ApplicationContextUtil.getBeanByClass(ScheduledThreadPoolServiceCommponent.class);
 	 
-		System.out.println("............"+DateUtil.formateDateStr(new Date(),DateUtil.FULL_DATETIME_PATTERN));
-		
-		 
-			PullTaskWithFixedRate delayTask = new PullTaskWithFixedRate();
-			scheduledService.executeTaskWithFixedRate(delayTask);
-		 
-		try {
-			Thread.sleep(Integer.MAX_VALUE);
-			System.out.println("server ended!");
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
 
 }

@@ -48,6 +48,7 @@ public class CompletableFutureTest {
 		System.out.println("供应商A ： "+fa.get().toString());
 		System.out.println("供应商B ： "+fb.get().toString());
 		System.out.println("供应商C ： "+fc.get().toString());
+		System.out.println("ddddddddddddddd");
 	}
 
 }

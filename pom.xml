@@ -22,13 +22,27 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-clound.version>Finchley.RELEASE</spring-clound.version>
+   		<tcc-transaction.version>master-1.2.x</tcc-transaction.version>
     </properties>
 
 
 	<dependencies>
+	<!--  
 		<dependency>
 		    <groupId>org.springframework.cloud</groupId>
 		    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+	-->
+		<dependency>
+
+		<groupId>org.mockito</groupId>
+		
+		<artifactId>mockito-core</artifactId>
+		
+		<!-- <version>2.7.19</version> -->
+		
+		<scope>test</scope>
+		
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -38,7 +52,9 @@
 		<dependency>
 		    <groupId>io.netty</groupId>
 		    <artifactId>netty-all</artifactId>
-		    <version>4.1.42.Final</version>
+		   <!-- 采用自带  
+		    <version>4.1.42.Final</version> 		   
+		   -->
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator -->
 		<dependency>
@@ -65,10 +81,7 @@
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-				<dependency> 
-		<groupId>org.springframework.boot</groupId> 
-		<artifactId>spring-boot-starter-actuator</artifactId> 
-		</dependency>
+			 
 		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
 		    <groupId>com.google.guava</groupId>
@@ -98,7 +111,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.31</version>
+            <version>1.2.61</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
 		<dependency>
@@ -120,11 +133,13 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
         </dependency>
+        <!--  部署war包
         <dependency>
         	<groupId>org.springframework.boot</groupId>
         	<artifactId>spring-boot-starter-tomcat</artifactId>
         	<scope>provided</scope>
         </dependency>
+         -->
          <!-- 加载Oracle
         <dependency>
 			<groupId>com.oracle</groupId>
@@ -184,8 +199,16 @@
 		    <artifactId>kafka-clients</artifactId>
 		    <version>0.11.0.3</version>
 		</dependency>
- 		
-		
+		<dependency>
+ 		<groupId>org.mengyun</groupId>
+  			<artifactId>tcc-transaction-server</artifactId>
+        <version>1.1.6.6</version>
+    </dependency>
+		<dependency>
+		    <groupId>com.lmax</groupId>
+		    <artifactId>disruptor</artifactId>
+		    <version>3.4.2</version>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>

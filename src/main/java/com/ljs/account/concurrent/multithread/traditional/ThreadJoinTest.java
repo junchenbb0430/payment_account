@@ -3,7 +3,10 @@ package com.ljs.account.concurrent.multithread.traditional;
 public class ThreadJoinTest {
 
 	public static void main(String[] args) {
-		 
+		System.out.println("3/10 = "+3/10);
+		System.out.println("3%10 = "+3%10);
+		System.out.println("10/3 = "+10/3);
+		System.out.println("10%3 = "+10%3);
 		Thread ta = new Thread(new ThreadA());
 		Thread tb = new Thread(new ThreadB());
 		ta.start();
